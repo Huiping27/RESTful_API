@@ -18,7 +18,7 @@ To get started with this API, follow these steps:
 ```
 node server.js
 ```
-## Usage
+## Test
 
 ```
 npm test
