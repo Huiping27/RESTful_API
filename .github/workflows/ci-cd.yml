@@ -1,4 +1,4 @@
-name: Node.js CI/CD Pipeline
+name: CI
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16'  # Specify the Node.js version
+        node-version: '18'
 
     - name: Install dependencies
       run: npm install
@@ -27,13 +27,3 @@ jobs:
     - name: Run tests
       run: npm test
 
-    - name: Build
-      run: npm run build  # Run the build script if you have one
-
-    - name: Deploy
-      run: |
-        # Commands for deployment go here
-        # Example: Deploy to Heroku
-        # heroku deploy:jar --app your-heroku-app
-      env:
-        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
