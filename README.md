@@ -1,4 +1,4 @@
-# API Prototype
+# RESTful API
 
 
 ## Description
