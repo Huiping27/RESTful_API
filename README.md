@@ -24,6 +24,10 @@ node server.js
 npm test
 ```
 
+## Authur
+
+Huiping Li
+
 ## License
 
 This project is licensed under the MIT License.
