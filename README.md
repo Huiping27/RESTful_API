@@ -1,8 +1,9 @@
 # API Prototype
 
+
 ## Description
 
-A simple RESTful API built with Node.js and Express. This API allows you to manage a list of items with basic CRUD (Create, Read, Update, Delete) operations.
+My first simple RESTful API built with Node.js and Express.  This API demonstrates how to manage a list of items with basic CRUD (Create, Read, Update, Delete) operations.
 
 ## Installation
 
@@ -11,15 +12,17 @@ To get started with this API, follow these steps:
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/yourusername/api_prototype.git
+   git clone https://github.com/huiping27/api_prototype.git
    
 ## Usage
 ```
 node server.js
+```
+## Usage
 
-### Testing
 ```
 npm test
+```
 
 ## License
 
