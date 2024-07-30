@@ -3,7 +3,7 @@
 
 ## Description
 
-My first simple RESTful API built with Node.js and Express.  This API demonstrates how to manage a list of items with basic CRUD (Create, Read, Update, Delete) operations.
+Simple RESTful API built with Node.js and Express.  This API demonstrates how to manage a list of items with basic CRUD (Create, Read, Update, Delete) operations.
 
 ## Installation
 
